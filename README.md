@@ -1,7 +1,7 @@
-# angular-recursion
+# angular-recursion-injector
 Provider that allows you to use recursive directives.
 
-##Problem and solution
+## Problem and solution
 In some cases you need to call same directive from it's own template.
 
 Lets assume we have directive with name ```node``` and following template:
@@ -28,14 +28,14 @@ Template for the same directive with usage of angular-recursion will look like t
 
 We added ```--recursion``` suffix. To check if we need recursion we use ```recursion-if``` attribute with expression.
 
-##Installation
-###Bower
+## Installation
+### Bower
 ```bower install --save angular-recursion```
 
-###Manually
+### Manually
 Just take right file from dist folder.
 
-##How to use
+## How to use
 1. Add the dependency to your module: ```angularRecursion```. 
 ```javascript
 angular.module('yourModuleNmae', ['angularRecursion'...
@@ -68,5 +68,5 @@ angular.module('yourModuleName')
 ```
 You can use ```AngularRecursion.link``` for ```link``` and ```AngularRecursion.compile``` for ```compile```.
 
-##Restrictions
+## Restrictions
 Can be used only with directive with restriction to the element name (```restrict: 'E'```).
