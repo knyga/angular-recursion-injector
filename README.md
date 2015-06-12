@@ -36,12 +36,8 @@ We added ```--recursion``` suffix. To check if we need recursion we use ```recur
 Just take right file from dist folder.
 
 ## How to use
-1. Add the dependency to your module: ```angularRecursion```. 
-```javascript
-angular.module('yourModuleNmae', ['angularRecursion'...
-```
-
-2. Inject ```AngularRecursion``` into your directive.
+1.  Add the dependency to your module: ```angularRecursion```. ```angular.module('yourModuleNmae', ['angularRecursion'... ```
+2.  Inject ```AngularRecursion``` into your directive.
 ```javascript
 angular.module('yourModuleName')
   .directive('node', ['AngularRecursion', function (AngularRecursion) {
@@ -67,7 +63,7 @@ angular.module('yourModuleName')
 );
 ```
 You can use ```AngularRecursion.link``` for ```link``` and ```AngularRecursion.compile``` for ```compile```.
-You *SHOULD* provide name of the tag (without --recursion suffix) as first parameter for ```AngularRecursion.link``` or ```AngularRecursion.compile```.
+You **SHOULD** provide name of the tag (without --recursion suffix) as first parameter for ```AngularRecursion.link``` or ```AngularRecursion.compile```.
 
 ## Restrictions
 Can be used only with directive with restriction to the element name (```restrict: 'E'```).
