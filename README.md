@@ -67,6 +67,7 @@ angular.module('yourModuleName')
 );
 ```
 You can use ```AngularRecursion.link``` for ```link``` and ```AngularRecursion.compile``` for ```compile```.
+You *SHOULD* provide name of the tag (without --recursion suffix) as first parameter for ```AngularRecursion.link``` or ```AngularRecursion.compile```.
 
 ## Restrictions
 Can be used only with directive with restriction to the element name (```restrict: 'E'```).
