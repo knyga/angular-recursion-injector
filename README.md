@@ -30,7 +30,7 @@ We added ```--recursion``` suffix. To check if we need recursion we use ```recur
 
 ## Installation
 ### Bower
-```bower install --save angular-recursion```
+```bower install --save angular-recursion-injector```
 
 ### Manually
 Just take right file from dist folder.
