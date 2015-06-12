@@ -1,0 +1,13 @@
+node_modules
+.tmp
+app/bower_components
+*~
+.idea
+.DS_Store
+.bower
+.bundle
+.env
+*.swp
+*.swo
+coverage
+
