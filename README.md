@@ -33,7 +33,7 @@ We added ```--recursion``` suffix. To check if we need recursion we use ```recur
 ```bower install --save angular-recursion```
 
 ###Manually
-Just take dist/angular-recursion.dist.js
+Just take right file from dist folder.
 
 ##How to use
 1. Add the dependency to your module: ```angularRecursion```. 
