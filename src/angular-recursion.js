@@ -47,7 +47,7 @@ angular.module('angularRecursion', [])
           clearElement(element, recursionName);
         } else {
 
-          $(element.find(recursionName)).each(function() {
+          angular.forEach(angular.element(element.find(recursionName)), function() {
             var $this = angular.element(this);
             var outerHTML = $this[0].outerHTML.replace(new RegExp(recursionName, 'ig'), name);
 
